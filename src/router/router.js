@@ -7,8 +7,17 @@ import Vue from 'vue'
 //使用
 Vue.use(VueRouter)
 
+//导入登录组件规则
+import login from '../views/login/login.vue'
+
 //路由规则
-const routes = [];
+const routes = [
+    {
+    path:'/login',
+    component:login,
+
+    }
+];
 
 //创建路由实例
 const router = new VueRouter({

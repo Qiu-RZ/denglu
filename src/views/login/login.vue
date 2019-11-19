@@ -1,9 +1,13 @@
 <template>
-<!-- 路由出口 -->
-<router-view></router-view>
+  <div>
+
+      我是 登录页
+  </div>
 </template>
 
 <script>
+
+
 export default {
 
 }
