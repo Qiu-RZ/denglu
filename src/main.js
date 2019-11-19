@@ -12,6 +12,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 //use
 Vue.use(ElementUI)
 
+//导入自己全局样式
+import  './style/base.css'
+
 
 new Vue({
   render: h => h(App),
